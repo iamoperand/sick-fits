@@ -5,19 +5,19 @@ import NavStyles from './styles/NavStyles';
 const Nav = () => (
   <NavStyles>
     <Link href="/items">
-      Items
+      <a>Items</a>
     </Link>
     <Link href="/sell">
-      Sell
+      <a>Sell</a>
     </Link>
     <Link href="/signup">
-      Signup
+      <a>Signup</a>
     </Link>
     <Link href="/orders">
-      Orders
+      <a>Orders</a>
     </Link>
     <Link href="/me">
-      Account
+      <a>Account</a>
     </Link>
   </NavStyles>
 );
